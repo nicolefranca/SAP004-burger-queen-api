@@ -9,7 +9,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./:/app:cached
+      - ./:/app
     networks:
       - bq-network
     depends_on:
