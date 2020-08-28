@@ -1,7 +1,7 @@
 module.exports = {
   "development": {
     "username": "postgres",
-    "password": null,
+    "password": "example",
     "database": "bq_api_development",
     "host": "db",
     "dialect": "postgres",
@@ -9,7 +9,7 @@ module.exports = {
   },
   "test": {
     "username": "postgres",
-    "password": null,
+    "password": "example",
     "database": "bq_api_test",
     "host": "db",
     "dialect": "postgres",
@@ -17,7 +17,7 @@ module.exports = {
   },
   "production": {
     "username": "postgres",
-    "password": null,
+    "password": "example",
     "database": "bq_api_production",
     "host": "db",
     "dialect": "postgres",
